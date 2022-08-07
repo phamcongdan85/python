@@ -6,3 +6,7 @@ pip install -r requirements.txt --no-index --find-links download
 Dong bo cac goi cai dat giua cac may tinh
 pip freeze > requirements.txt
 pip install --download=/path/to/packages/downloaded -r requirements.txt
+
+tao wheel file
+pip wheel pyspark-2.4.6.tar.gz --wheel-dir download
+
