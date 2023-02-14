@@ -10,3 +10,8 @@ pip install --download=/path/to/packages/downloaded -r requirements.txt
 tao wheel file
 pip wheel pyspark-2.4.6.tar.gz --wheel-dir download
 
+
+# Tai file wheel ve may
+
+pip wheel -r requirements.txt -w .\outputdir
+
