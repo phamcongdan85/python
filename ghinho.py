@@ -15,3 +15,6 @@ pip wheel pyspark-2.4.6.tar.gz --wheel-dir download
 
 pip wheel -r requirements.txt -w .\outputdir
 
+# tai mot thu vien pip ve
+
+ pip download -d ./out1 pyOpenSSL
