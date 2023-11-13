@@ -27,6 +27,8 @@ sudo apt-get install python3.x-dev
 
 ## Cai java
 
+link https://stackjava.com/install/cai-dat-java-jdk-tren-ubuntu-linux-bang-file-tar-gz.html
+
 
 Home » Install » Cài đặt Java, JDK trên Ubuntu (Linux) bằng file tar.gz
 
