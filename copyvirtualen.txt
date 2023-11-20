@@ -1,0 +1,15 @@
+
+First way to create a copy of existing virtualenv, say ProjectAenv:
+
+Copy the ProjectAenv to some other name or directory:
+
+cp -R /home/sk/Path1/ProjectAenv /home/sk/Path2/ProjectBenv
+where /home/sk/Path1/ProjectAenv is the absolute path of the virtualenv ProjectAenv
+
+Then open the activate file of newly copied ProjectBenv using your preferred editor:
+
+gedit /home/sk/Path2/ProjectBenv/bin/activate
+Find the line VIRTUAL_ENV="/home/sk/Path1/ProjectAenv" and replace it with:
+
+VIRTUAL_ENV="/home/sk/Path2/ProjectBenv"
+Save and close the file.
