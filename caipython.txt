@@ -3,7 +3,9 @@ Truowc khi cai can cai cac tool tranh khi cai xong bi thieu modules
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \ libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \ xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 
 
+############################################################3#####
 
+Thiếu kernel của jupyter thì cài lại ipython bản phù hợp
 
 
 
